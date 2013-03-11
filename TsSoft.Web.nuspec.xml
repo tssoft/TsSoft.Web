@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TsSoft.Web</id>
+    <version>REPLACEME</version>
+    <authors>tssoft</authors>
+    <owners>tssoft</owners>
+    <licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
+    <projectUrl>https://github.com/tssoft/TsSoft.Web/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>REPLACEME</description>
+    <copyright>REPLACEME</copyright>
+    <tags>ASP.NET MVC DataTables DataTables.net</tags>
+  </metadata>
+  <files>
+	<file src="TsSoft.Web.dll" target="lib\net4" />
+  </files>
+</package>

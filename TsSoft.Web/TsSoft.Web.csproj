@@ -50,10 +50,8 @@
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if '$(Configuration)' == 'Release' (
-     del $(ProjectName).*.nupkg
-     nuget ? &amp;&amp; (nuget pack $(ProjectPath) -Prop Configuration=Release -OutputDirectory $(ProjectDir))
-)</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
